@@ -5,7 +5,7 @@
 - **Ngày thực hiện:** 16/10/2026
 
 ---
-<img width="1363" height="296" alt="image" src="https://github.com/user-attachments/assets/998a4363-e183-4521-9ab3-46fdbf7e2ca8" />
+
 
 ## 1. Giới thiệu về JMeter
 
@@ -50,7 +50,8 @@ Apache JMeter là công cụ mã nguồn mở viết bằng Java, dùng để **
 2. Tải JMeter (file `.zip` Binaries), giải nén.
 3. Chạy giao diện: `bin/jmeter.bat` (Windows) hoặc `bin/jmeter.sh` (Linux/macOS).
 
->
+<img width="1517" height="848" alt="Screenshot 2026-10-16 074248" src="https://github.com/user-attachments/assets/c11bff4a-82ff-4a80-8b67-360427314d52" />
+
 > `![Hình 1](images/01-cai-dat.png)`
 
 ---
@@ -94,11 +95,12 @@ Body của request POST:
 
 View Results Tree, Summary Report, Aggregate Report.
 
->
-> `![Hình 2](images/02-test-plan.png)`
->
+<img width="1517" height="838" alt="Screenshot 2026-10-16 074554" src="https://github.com/user-attachments/assets/9582abb9-cc2c-403a-a78f-d898aa30fa72" />
+
+
 > `![Hình 3](images/03-thread-group.png)`
->
+<img width="1512" height="850" alt="Screenshot 2026-10-16 074747" src="https://github.com/user-attachments/assets/8a36e7c2-6056-4652-9ed9-6aaf3361798c" />
+
 > `![Hình 4](images/04-post-request.png)`
 
 ---
@@ -113,7 +115,8 @@ Hoặc chạy bằng dòng lệnh (chế độ non-GUI, khuyến nghị khi đo 
 jmeter -n -t jmeter-demo.jmx -l results/result.jtl -e -o results/html-report
 ```
 
->
+<img width="1516" height="861" alt="Screenshot 2026-10-16 075020" src="https://github.com/user-attachments/assets/542c99a3-9db5-4f61-9596-b6af4e1c1967" />
+
 > `![Hình 5](images/05-view-results-tree.png)`
 
 ---
@@ -121,8 +124,11 @@ jmeter -n -t jmeter-demo.jmx -l results/result.jtl -e -o results/html-report
 ## 6. Kết quả
 
 ### 6.1 Summary Report / Aggregate Report
+<img width="1508" height="852" alt="Screenshot 2026-10-16 075108" src="https://github.com/user-attachments/assets/6f208903-720f-4e9f-968b-eb7f72293867" />
+
 > `![Hình 6](images/06-summary-report.png)`
->
+<img width="1528" height="863" alt="Screenshot 2026-10-16 075129" src="https://github.com/user-attachments/assets/408d4af6-a276-4997-8ead-8764318f1496" />
+
 > `![Hình 7](images/07-aggregate-report.png)`
 
 Điền số liệu từ kết quả thực tế của bạn:
@@ -136,18 +142,11 @@ jmeter -n -t jmeter-demo.jmx -l results/result.jtl -e -o results/html-report
 
 ### 6.2 Báo cáo HTML (Dashboard)
 
-> `![Hình 8](images/08-html-dashboard.png)`
 
----
 
 ## 7. Nhận xét và đánh giá
 
-- Tỉ lệ lỗi (Error %) là bao nhiêu? Tất cả assertion có đạt không?
-- Request nào chậm nhất? Giải thích nguyên nhân có thể (kích thước dữ liệu trả về, thao tác ghi...).
-- Thời gian phản hồi trung bình và 90% Line có chấp nhận được không?
-- Hệ thống có dấu hiệu suy giảm khi tăng số user không? (Có thể thử tăng lên 20, 50 users và so sánh.)
 
----
 
 ## 8. Kết luận
 
@@ -155,13 +154,5 @@ Tóm tắt những gì đã học được: cách dựng test plan, cấu hình 
 
 ---
 
-## 9. Cấu trúc repo
 
-```
-.
-├── README.md
-├── jmeter-demo.jmx
-├── images/            # ảnh chụp minh hoạ
-└── results/           # file .jtl và html-report (nếu có)
-```
 
