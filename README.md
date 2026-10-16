@@ -5,6 +5,7 @@
 - **Ngày thực hiện:** 16/10/2026
 
 ---
+<img width="1363" height="296" alt="image" src="https://github.com/user-attachments/assets/998a4363-e183-4521-9ab3-46fdbf7e2ca8" />
 
 ## 1. Giới thiệu về JMeter
 
