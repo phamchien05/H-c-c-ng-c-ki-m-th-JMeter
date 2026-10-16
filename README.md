@@ -1,8 +1,7 @@
 # Báo cáo bài tập: Kiểm thử hiệu năng với Apache JMeter
 
-- **Họ và tên:** ……………………………
-- **MSSV:** ……………………………
-- **Lớp / Môn học:** ……………………………
+- **Họ và tên:** Phạm Văn Chiến
+- **MSSV:** 23010293
 - **Ngày thực hiện:** 16/10/2026
 
 ---
